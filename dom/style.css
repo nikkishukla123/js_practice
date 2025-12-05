@@ -1,0 +1,37 @@
+#heading {   
+    color: rgb(27, 170, 231);
+    background-color: rgb(235, 229, 229);
+}
+.hello {                     
+    color: rgb(20, 50, 219);
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+button{
+    background-color: red;
+   
+    color: blueviolet;
+}
+.box{
+   height: 100px;
+   width: 100px;
+   border: 1px solid black;
+   text-align: center;
+   margin: 5px;
+}
+.ok{
+    height: 100px;
+    width: 100px;
+    color: brown;
+}
+.content{
+    height: 100px;
+    width: 100px;
+    color: rgb(220, 13, 206);
+}
+.contents{
+    color: aqua;
+}

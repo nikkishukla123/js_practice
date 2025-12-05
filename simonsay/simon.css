@@ -1,0 +1,31 @@
+body {
+    text-align: center;  
+}
+.btn {
+    height: 200px;
+    width: 200px;
+    border-radius: 20%;  /* curve shape */
+    border: 1px solid black;
+   margin: 2.5rem;
+}
+.btn-container{
+    display: flex;
+    justify-content: center;
+}
+.yellow {
+    background-color: yellow;
+}
+.pink {
+    background:pink;
+}
+.red{
+    background: rgb(230, 18, 18);
+}
+.blue{
+    background: blue;
+}
+.flash {
+    background-color: rgb(229, 249, 238);
+    opacity: 0.6;
+    transition: all 0.2s ease;
+  }
