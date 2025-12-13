@@ -25,3 +25,16 @@ app.get("/rolldice",(req,res)=> {
     let diceval = Math.floor(Math.random()*6)+1;  // assume this is dataset
     res.render("rolldice.ejs",{diceval});  // this diceval name is passed from html
 })
+
+
+
+// for instagram the variable is username
+
+app.get("/ig/:username",(req,res)=>{
+    let {username} = req.params; // isko as a parametr liya
+const instaData = require("./data.json");  // data.json ko acess kiya
+const data = instaData[username];// so that we get data of name we type ,not all data
+  console.log(data);
+
+   res.render("insta.ejs",{data});  //<%= username %> this has to atch in html the variable value which is chnaging
+});

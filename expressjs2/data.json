@@ -1,0 +1,80 @@
+{
+    "cats": {
+      "name": "cats",
+      "username": "cat_lovers",
+      "followers": 25000,
+      "following": 180,
+      "bio": "Daily dose of cute cats 🐱",
+      "posts": [
+        {
+          "image": "https://images.unsplash.com/photo-1592194996308-7b43878e84a6",
+          "likes": 1200,
+          "comments": 45,
+          "caption": "Sleeping beauty 😴"
+        },
+        {
+          "image": "https://images.unsplash.com/photo-1595433562696-19f7d06d7f1c",
+          "likes": 980,
+          "comments": 30,
+          "caption": "Eyes that melt hearts 💛"
+        },
+        {
+          "image": "https://images.unsplash.com/photo-1601758123927-196f17f36aeb",
+          "likes": 2100,
+          "comments": 120,
+          "caption": "Play time 🧶"
+        }
+      ]
+    },
+  
+    "dogs": {
+      "name": "dogs",
+      "username": "dog_world",
+      "followers": 75000,
+      "following": 150,
+      "bio": "All about dogs 🐶",
+      "posts": [
+        {
+          "image": "https://images.unsplash.com/photo-1598133894008-61f7fdb8b9c2",
+          "likes": 3000,
+          "comments": 41,
+          "caption": "Best friend forever ❤️"
+        },
+        {
+          "image": "https://images.unsplash.com/photo-1558788353-f76d92427f16",
+          "likes": 2500,
+          "comments": 32,
+          "caption": "Who’s a good boy? 🐾"
+        },
+        {
+          "image": "https://images.unsplash.com/photo-1517849845537-4d257902454a",
+          "likes": 500,
+          "comments": 6,
+          "caption": "Sunday mood 😌"
+        }
+      ]
+    },
+  
+    "travel": {
+      "name": "travel",
+      "username": "wander_india",
+      "followers": 102000,
+      "following": 300,
+      "bio": "Travel | Mountains | Beaches ✈️",
+      "posts": [
+        {
+          "image": "https://images.unsplash.com/photo-1501785888041-af3ef285b470",
+          "likes": 4200,
+          "comments": 210,
+          "caption": "Lost in the mountains 🏔️"
+        },
+        {
+          "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e",
+          "likes": 3800,
+          "comments": 190,
+          "caption": "Ocean therapy 🌊"
+        }
+      ]
+    }
+  }
+  
