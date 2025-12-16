@@ -11,13 +11,13 @@ app.listen(port, ()=>{
 })
 
 
-app.get("/register",(req,res) => {
-    let {name,password} = req.query;
+app.get("/register",(req,res) => {  // get requets
+    let {name,password} = req.query;  // getting name ,password from req.query
    res.send(`standar get request welcome:${name}`)
 })
 
-app.post("/register",(req,res) => {
-    let {name,password} = req.body
+app.post("/register",(req,res) => { // post request
+    let {name,password} = req.body   // getting name ,password from req.body, as it is in body
     res.send(`standar post request welcome:${name}`)
 
  })
