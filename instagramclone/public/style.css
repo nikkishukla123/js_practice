@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #fafafa;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Feed container */
+  .box {
+    width: 400px;
+    margin: 30px auto;
+  }
+  
+  /* Each post */
+  .post {
+    background-color: #ffffff;
+    border: 1px solid #dbdbdb;
+    border-radius: 6px;
+    margin-bottom: 20px;
+  }
+  
+  /* Username */
+  .username {
+    font-weight: bold;
+    padding: 10px;
+    font-size: 14px;
+  }
+  
+  /* Image */
+  .post img {
+    width: 100%;
+    display: block;
+  }
+  
+  /* Caption */
+  .caption {
+    padding: 10px;
+    font-size: 14px;
+  }
+  
