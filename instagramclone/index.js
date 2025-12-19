@@ -44,11 +44,11 @@ app.get("/posts",(req,res) => {
      res.render("index.ejs",{feedpost})
 });
 
-app.get("/posts/form",(req,res) => {
+app.get("/posts/form",(req,res) => {  //get the form
     res.render("show.ejs")
 })
 
-app.post("/posts",(req,res) => {
+app.post("/posts",(req,res) => {  // adding new post in app from form
      let {username,image,caption} = req.body;
      feedpost.push({
         id: Date.now().toString(),
@@ -67,12 +67,13 @@ app.delete("/posts/:id",(req,res) =>{  // form route should math this route
        res.redirect("/posts");
     
 });
-
+ // editing form: create get route for editing form
 app.get("/posts/:id/edit",(req,res) => {
     let {id} = req.params; 
     let post = feedpost.find((p) => id === p.id); // checking if user enter id mathches with editing id then send only that post
     res.render("edit.ejs",{post}); // if mathes then send that post to edit ejs
 })
+// Create PATCH route  for updating new caption and returning again to the posts page
 app.patch("/posts/:id",(req,res) => {
     let {id} = req.params; 
     let newCaption = req.body.caption;  // taking new caption
