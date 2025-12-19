@@ -73,3 +73,11 @@ app.get("/posts/:id/edit",(req,res) => {
     let post = feedpost.find((p) => id === p.id); // checking if user enter id mathches with editing id then send only that post
     res.render("edit.ejs",{post}); // if mathes then send that post to edit ejs
 })
+app.patch("/posts/:id",(req,res) => {
+    let {id} = req.params; 
+    let newCaption = req.body.caption;  // taking new caption
+    let post = feedpost.find((p) => id === p.id); // finding that post to update it
+    post.caption = newCaption; // assigning new caption
+    res.redirect("/posts");
+
+})
