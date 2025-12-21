@@ -40,7 +40,7 @@ let feedpost = [
     } 
 ];
 
-app.get("/posts",(req,res) => {
+app.get("/posts",(req,res) => { // show all posts
      res.render("index.ejs",{feedpost})
 });
 
